@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Locations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#334E2B ;
+        }
+        header {
+            background-color: #334E2B;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #1a251a;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #1a251a;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 20px;
+        }
+        .study-container {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
+        .study-spot {
+            border: 5px solid #a53403;
+            padding: 15px;
+            width: 200px;
+            height: 300px;
+            border-radius: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color:snow;
+            background-color: #1a251a;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .study-spot:hover {
+            background-color:#a53403;
+        }
+    </style>
+</head>
+<body>
+    <header>Study Space Finder</header>
+    <nav>
+        <a href="1.study space.html">Home</a>
+        <a href="2.Available Spaces.html">Available Locations</a>
+        <a href="2. log in page.html">Log In</a>
+    </nav>
+    <main>
+        <div class="study-container">
+            <div class="study-spot">
+                <h3>Library Shhh - Bench 1A</h3>
+                <p>Status:11 Available</p>
+                
+            </div>
+            <div class="study-spot">
+                <h3>Naddies - Table 1A</h3>
+                <p>Status: 8 Available</p>
+               
+            </div>
+            <div class="study-spot">
+                <h3>Mingling Bar</h3>
+                <p>Status: Occupied</p>
+                
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Study Space. All rights reserved. Founded & Designed by Seth and Clive.
+    </footer>
+</body>
+</html>
